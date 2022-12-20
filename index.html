@@ -12,6 +12,10 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--Link do Fontawesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- font google: DM SERIF DISPLAY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!-- font google: KARLA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -44,17 +48,29 @@
         </nav>
     </header>
 
-    <div class="container-fluid mt-5 d-none">
-        <div class="row">
-            <div class="col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aliquam corporis possimus sapiente
-                    similique ad animi laudantium accusantium fugiat? Eius adipisci repudiandae praesentium nisi,
-                    mollitia eligendi necessitatibus suscipit accusantium illum?</p>
+    <div class="mainContainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 titleTextContainer">
+                    <h1 class="title"> Humanizing your insurance.</h1>
+
+                    <p class="text">Get your life insurance coverage easier and faster. We blend our expertise
+                        and technology to help you find the plan that’s right for you. Ensure you
+                        and your loved ones are protected.</p>
+
+                    <button id="plans-btn2">
+                        View Plans
+                    </button>
+
+                    <img src="images/bg-pattern-intro-left-desktop.svg" class="img1" alt="#">
+                </div>
+
+                <div class="col-6">
+                    <img src="./images/bg-pattern-intro-right-desktop.svg" class="img2" alt="#">
+                    <img src="./images/image-intro-desktop.jpg" class="img3" alt="#">
+                </div>
             </div>
-
-
         </div>
-
         <script src="js/script.js"></script>
         <!-- link bootstrap js  -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -63,6 +79,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>

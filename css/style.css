@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
+/* header configs */
 header {
     height: 80px;
     display: flex;
     justify-content: space-around;
-
+    font-family: 'Karla', sans-serif;
 }
 
 nav {
@@ -47,6 +48,73 @@ nav {
     margin-right: 20px;
     font-size: 20px;
     display: none;
+}
+
+/* header configs */
+
+/* main container configs */
+.mainContainer {
+    height: 550px;
+    background: hsl(256, 26%, 20%);
+}
+
+.title, .text {
+    color: #fff;
+    margin: 0 0 0 7%;
+
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 65px;
+    width: 80%;
+    margin-top: 15%;
+}
+
+.text {
+    font-family: 'Karla', sans-serif;
+}
+
+#plans-btn2 {
+    text-align: center;
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: transparent;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    margin: 5% 0 0 7%;
+}
+
+#plans-btn2:hover {
+    color: #000;
+    border: #000 solid 1px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+
+
+.img1, .img2, .img3 {
+    position: absolute;
+}
+
+.img1 {
+    margin-left: -310px;
+}
+
+.img2 {
+    z-index: 1;
+    margin: 0 0 0 18%;
+    height: 440px;
+    width: 470px;
+}
+
+/* imagem familia */
+.img3 {
+    z-index: 0;
+    height: 600px;
+    margin: 5% 0 0 5%;
 }
 
 /* Media Queries */
@@ -206,7 +274,7 @@ nav {
     #menu-navegacao {
         color: #fff;
         height: 700px;
-        margin-top: 4%;
+        margin-top: 2%;
         background-color: #1e1e1e;
         background-image: url('../images/bg-pattern-mobile-nav.svg');
         background-repeat: no-repeat;
