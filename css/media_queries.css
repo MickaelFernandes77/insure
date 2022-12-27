@@ -1,0 +1,994 @@
+/* Media Queries */
+@media(min-width: 300px) and (max-width:375px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        background-color: #3d3b3f;
+        height: 500px;
+        margin-top: 4%;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 100%;
+    }
+
+    #menu-ul {
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* main container */
+    .mainContainer {
+        height: 900px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2, .img3 {
+        display: none;
+    }
+
+    .imgContainer {
+        height: 450px;
+        width: 100%;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondContainerImg {
+        margin-left: 36.8%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title3 {
+        margin-top: 20%;
+        text-align: center;
+        font-size: 35px;
+        width: 65%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 60%;
+        margin-top: 8%;
+    }
+}
+
+@media(min-width:375px) and (max-width:425px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        background-color: #1e1e1e;
+        height: 530px;
+        margin-top: 4%;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 100%;
+    }
+
+    #menu-ul {
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    /* main container */
+    .mainContainer {
+        height: 900px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2, .img3 {
+        display: none;
+    }
+
+    .imgContainer {
+        height: 500px;
+        width: 100%;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondContainerImg {
+        margin-left: 38.5%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title3 {
+        margin-top: 20%;
+        text-align: center;
+        font-size: 35px;
+        width: 75%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 63%;
+        margin-top: 8%;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 486px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        background-color: #1e1e1e;
+        height: 500px;
+        margin-top: 4%;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 100%;
+    }
+
+    #menu-ul {
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .mainContainer {
+        height: 900px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2, .img3 {
+        display: none;
+    }
+
+    .imgContainer {
+        height: 500px;
+        width: 100%;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondContainerImg {
+        margin-left: 40%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+}
+
+@media(min-width: 486px) and (max-width: 550px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        height: 550px;
+        margin-top: 4%;
+        background-color: #1e1e1e;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 100%;
+    }
+
+    #menu-ul {
+        display: flex;
+        justify-items: center;
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .mainContainer {
+        height: 900px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2, .img3 {
+        display: none;
+    }
+
+    .imgContainer {
+        height: 500px;
+        width: 100%;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondContainerImg {
+        margin-left: 42%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 10%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title3 {
+        margin-top: 20%;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 63%;
+        margin-top: 8%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 574px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        height: 720px;
+        margin-top: 4%;
+        background-color: #1e1e1e;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0 100%;
+    }
+
+    #menu-ul {
+        display: flex;
+        justify-items: center;
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .mainContainer {
+        height: 1100px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .text {
+        margin-top: 4%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2, .img3 {
+        display: none;
+    }
+
+    .imgContainer {
+        height: 700px;
+        width: 100%;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondContainerImg {
+        margin-left: 42%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 5%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title3 {
+        margin-top: 20%;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 63%;
+        margin-top: 8%;
+    }
+}
+
+@media (min-width: 574px) and (max-width: 767.98px) {
+    nav {
+        width: 100%;
+    }
+
+    #logoContainer {
+        margin-left: 30px;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #menu-navegacao {
+        color: #fff;
+        height: 650px;
+        margin-top: 2%;
+        background-color: #1e1e1e;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100% 100%;
+    }
+
+    #menu-ul {
+        display: flex;
+        justify-items: center;
+        margin: 5% 0 0 5%;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+
+    #plans-btn {
+        color: #fff;
+        border: #fff solid 1px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .mainContainer {
+        height: 1100px;
+    }
+
+    .mainContainerRow {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 45px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20%;
+    }
+
+    .text {
+        margin-top: 4%;
+    }
+
+    #plans-btn2 {
+        margin: 10% 0 0 12%;
+        width: 75%;
+    }
+
+    .img1, .img2 {
+        display: none;
+    }
+
+    .img3 {
+        position: static;
+        margin: 3% 0 0 9.5px;
+        height: 630px;
+    }
+
+    .imgContainer {
+        height: 600px;
+        width: 100%;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secondContainerImg {
+        margin-left: 41.5%;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .title2 {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        margin-top: 5%;
+    }
+
+    .text2 {
+        width: 100%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title3 {
+        margin-top: 20%;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 63%;
+        margin-top: 8%;
+    }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    #menu-ul {
+        margin-left: 20%;
+    }
+
+    .img1, .img2 {
+        display: none;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0 0 0 0;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 45px;
+        width: 50%;
+        margin-top: 20%;
+    }
+
+    #plans-btn2 {
+        margin: 5% 0 0 0;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    /* imagem familia */
+    .img3 {
+        position: static;
+        z-index: 0;
+        height: 500px;
+        width: 350px;
+        margin: 7% 5% 0 0;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 15%;
+    }
+
+    .titleTextContainer2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .secondContainerImg {
+        margin-left: 0;
+    }
+
+    .title2, .subtitle, .text2 {
+        text-align: left;
+    }
+
+    .title2 {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        margin-top: 10%;
+    }
+
+    .text2 {
+        padding-left: 0%;
+        width: 90%;
+    }
+
+    /* container 3 */
+    .thirdContainer {
+        background-color: #2d2640;
+        height: 320px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .workContainer {
+        height: 220px;
+        display: flex;
+    }
+
+    .title3 {
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .workContainer>.workBtn {
+        height: 38px;
+        width: 25%;
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 991.98px) and (max-width: 1199.99px) {
+    #menu-ul {
+        margin-left: 20%;
+    }
+
+    .img1, .img2 {
+        display: none;
+    }
+
+    .title, .text {
+        color: #fff;
+        margin: 0 0 0 0;
+    }
+
+    .title {
+        font-family: 'DM Serif Display', serif;
+        font-size: 45px;
+        width: 50%;
+        margin-top: 20%;
+    }
+
+    #plans-btn2 {
+        margin: 5% 0 0 0;
+    }
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    /* imagem familia */
+    .img3 {
+        position: static;
+        z-index: 0;
+        height: 500px;
+        width: 470px;
+        margin: 8% 5% 0 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .img2 {
+        display: none;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 23%;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1440px) {
+    .img2 {
+        display: none;
+    }
+
+    /* second container */
+    .secondContainer {
+        margin-top: 23%;
+    }
+}
