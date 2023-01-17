@@ -179,3 +179,58 @@ nav {
     color: #000;
     transition: 0.5s;
 }
+
+footer {
+    background-color: #dad0d0;
+    height: 400px;
+}
+
+.footerContainer {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+
+#logoFooter {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.footerIconContainer {
+    margin-top: 20px;
+}
+
+.social_media_icon {
+    font-size: 25px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: #888383;
+}
+
+.social_media_icon:hover{
+    color: #000;
+}
+
+.footerLinksContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks > h3{
+    text-transform: uppercase;
+    color: #7e7878;
+    font-size: 18px;   
+}
+
+.footerLinks > div > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footerLinks > div > a:hover{
+    color: #48367e;
+    transition: 0.5s;
+}
